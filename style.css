@@ -1,0 +1,207 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(155, 155, 227);
+    font-size: 1.1rem;
+}
+
+/* Main section separator */
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+/* Header text styles */
+.left {
+    font-size: 2rem;
+}
+
+/* First section styles */
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+/* Left section styles */
+.leftSection {
+    font-size: 2rem;
+    margin: 100px 0;
+}
+
+/* Right section styles */
+.rightSection img {
+    width: 80%;
+}
+
+/* Purple text color */
+.purple {
+    color: rgb(170, 108, 228);
+}
+
+/* Grey text color */
+.text-gray {
+    color: grey;
+}
+
+/* Typed element color */
+#element {
+    color: rgb(170, 108, 228);
+}
+
+/* Second section styles */
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+/* About Me section styles */
+.aboutMeSection {
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+/* Education section styles */
+.educationSection {
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* Contact section styles */
+.contactSection {
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Project styles */
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    color: #9c97f1;
+    margin-bottom: 10px;
+}
+
+.project .role {
+    font-weight: bold;
+    color: #9c97f1;
+    margin-right: 5px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.skill {
+    text-align: center;
+    max-width: 200px;
+    margin: 20px;
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.skill h3 {
+    color: #9c97f1;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    color: #ccc;
+}
+
+#social-media {
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #9c97f1;
+}
